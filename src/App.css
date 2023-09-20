@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --White-Background: rgb(255,255,255);
+    --Primary-Color: #161C2A;
+    --Orange: rgb(253,74,0);
+    --Grey-Text: rgb(145,145,145);
+    --Black-Text:rgb(17,15,25);
+}
