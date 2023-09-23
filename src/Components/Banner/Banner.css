@@ -34,7 +34,6 @@
 }
 
 .input-container{
-    border: 2px solid red;
     position: relative;
     font-size: 3.5rem;
     top: 48%;
@@ -83,4 +82,32 @@
 .input-container svg{
     font-size: 2rem;
     color: white;
+}
+
+.job-block-container{
+    position: absolute;
+    width: 45rem;
+    top: 32rem;
+    left: 22rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.job-block{
+    height: 3rem;
+    width: 10rem;
+    background: rgba( 255, 255, 255, 0.45 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    align-items: center;
+    text-align: center;
+}
+
+.job-block h4{
+    padding-top: 0.6rem;
+    color: #fff;
 }

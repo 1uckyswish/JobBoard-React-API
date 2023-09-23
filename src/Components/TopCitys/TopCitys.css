@@ -62,6 +62,7 @@
    align-items: center;
    justify-content: center;
 }
+
 #item-1 {
 background-image: url("../../assets/Img/san.jpg");
    background-size: cover;

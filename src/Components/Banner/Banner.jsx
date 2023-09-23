@@ -20,6 +20,20 @@ function Banner() {
         </select>
         <button><BiSearchAlt /></button>
      </div>
+     <div className="job-block-container">
+     <div className="job-block block-1">
+      <h4>Work From Home</h4>
+     </div>
+      <div className="job-block block-2">
+      <h4>Digital Marketing</h4>
+     </div>
+      <div className="job-block block-3">
+      <h4>Event Manager</h4>
+     </div>
+      <div className="job-block block-4">
+      <h4>Executive Officer</h4>
+     </div>
+     </div>
     </div>
   )
 }
