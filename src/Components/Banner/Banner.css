@@ -5,6 +5,10 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .banner-container::before {
@@ -18,17 +22,19 @@
 }
 
 .banner-container h2{
-    position: absolute;
+    /* position: absolute; */
     font-size: 3.5rem;
-    top: 25%;
-    left: 28%;
+    /* top: 25%;
+    left: 28%; */
+     position: relative;
 }
 
 
 .banner-container p{
-    position: absolute;
-    top: 38%;
-    left: 37%;
+    /* position: absolute; */
+    position: relative;
+    /* top: 38%;
+    left: 37%; */
     font-size: 1.5em;
     color: #ececec;
 }
@@ -36,8 +42,8 @@
 .input-container{
     position: relative;
     font-size: 3.5rem;
-    top: 48%;
-    left: 1.5%;
+    /* top: 48%;
+    left: 1.5%; */
     height: 10rem;
     width: 97%;
     display: flex;
@@ -85,10 +91,10 @@
 }
 
 .job-block-container{
-    position: absolute;
+    /* position: absolute; */
     width: 45rem;
-    top: 32rem;
-    left: 22rem;
+    /* top: 32rem;
+    left: 22rem; */
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -98,7 +104,7 @@
 .job-block{
     height: 3rem;
     width: 10rem;
-    background: rgba( 255, 255, 255, 0.45 );
+    background: rgba(226, 225, 225, 0.45);
     backdrop-filter: blur( 0.5px );
     -webkit-backdrop-filter: blur( 0.5px );
     border-radius: 10px;
