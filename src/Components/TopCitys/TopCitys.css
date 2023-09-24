@@ -30,8 +30,8 @@
    margin: 50px 50px;
 }
 
-.angry-grid p, h2{
-   color: #fff;
+.angry-grid p,.angry-grid h2{
+   color: #ffffff;
 }
 
 .angry-grid h2{
