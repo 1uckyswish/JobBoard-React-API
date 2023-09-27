@@ -6,7 +6,7 @@ function CategoryCard({index, data}) {
   return (
     <div id={`card-${data.id}`}>
       <div className="category-title">
-        <img src={logo} />
+        <img src={data.image} />
         <h3>{data.cat}</h3>
       </div>
       <div className="category-job-title">

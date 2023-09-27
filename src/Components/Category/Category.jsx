@@ -1,71 +1,80 @@
 import React from 'react'
 import CategoryCard from '../CategoryCard/CategoryCard'
 import "./Category.css"
+import { objOfLogos } from '../../utils/logo';
 
 function Category() {
- const jobDetails = [
+
+const jobDetails = [
   {
     id: 0,
     cat: "engineering",
-    title: "Software Engineer",
+    title: "Machine Learning Engineer",
     time: 'full time',
     loc: 'San Francisco',
-    buss: 'Facebook',
-    date: 'posted 9.25/23'
+    buss: 'Amazon',
+    date: 'posted 9.25/23',
+    image: objOfLogos[0],
   },
   {
     id: 1,
     cat: "marketing",
-    title: "Digital Marketing Specialist",
+    title: "Content Marketing Manager",
     time: 'part time',
     loc: 'Los Angeles',
-    buss: 'Amazon',
-    date: 'posted 9.24/23'
+    buss: 'Apple',
+    date: 'posted 9.24/23',
+     image: objOfLogos[1],
   },
   {
     id: 2,
     cat: "finance",
-    title: "Financial Analyst",
+    title: "Investment Analyst",
     time: 'full time',
     loc: 'Chicago',
-    buss: 'Microsoft',
-    date: 'posted 9.23/23'
+    buss: 'Figma',
+    date: 'posted 9.23/23',
+     image: objOfLogos[2],
   },
   {
     id: 3,
     cat: "healthcare",
-    title: "Registered Nurse",
+    title: "Emergency Room Physician",
     time: 'contract',
     loc: 'Houston',
-    buss: 'Apple',
-    date: 'posted 9.22/23'
+    buss: 'Google',
+    date: 'posted 9.22/23',
+     image: objOfLogos[3],
   },
   {
     id: 4,
     cat: "education",
-    title: "Elementary School Teacher",
+    title: "Online Course Instructor",
     time: 'full time',
     loc: 'Boston',
-    buss: 'Netflix',
-    date: 'posted 9.21/23'
+    buss: 'Linkedin',
+    date: 'posted 9.21/23',
+     image: objOfLogos[4],
   },
   {
     id: 5,
     cat: "sales",
-    title: "Sales Representative",
+    title: "Sales Manager",
     time: 'full time',
     loc: 'Miami',
-    buss: 'Tesla',
-    date: 'posted 9.20/23'
+    buss: 'Microsoft',
+    date: 'posted 9.20/23',
+     image: objOfLogos[5],
   },
   {
     id: 6,
     cat: "technology",
-    title: "IT Support Specialist",
+    title: "Cybersecurity Analyst",
     time: 'part time',
     loc: 'Seattle',
-    buss: 'Microsoft',
-    date: 'posted 9.19/23'
+    buss: 'Slack',
+    date: 'posted 9.19/23',
+     image: objOfLogos[6],
   },
   {
     id: 7,
@@ -73,19 +82,22 @@ function Category() {
     title: "Physical Therapist",
     time: 'full time',
     loc: 'Denver',
-    buss: 'Medtronic',
-    date: 'posted 9.18/23'
+    buss: 'Spotify',
+    date: 'posted 9.18/23',
+     image: objOfLogos[7],
   },
   {
     id: 8,
     cat: "design",
-    title: "Graphic Designer",
+    title: "UX/UI Designer",
     time: 'contract',
     loc: 'New York',
-    buss: 'Apple',
-    date: 'posted 9.17/23'
+    buss: 'Twitch',
+    date: 'posted 9.17/23',
+     image: objOfLogos[8],
   }
 ];
+
 
 
 
