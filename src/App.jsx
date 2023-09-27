@@ -4,6 +4,7 @@ import Banner from './Components/Banner/Banner'
 import TopCitys from './Components/TopCitys/TopCitys'
 import Category from './Components/Category/Category'
 import "./App.css"
+import News from './Components/News/News'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Banner />
     <TopCitys/>
     <Category />
+    <News/>
     </>
   )
 }
