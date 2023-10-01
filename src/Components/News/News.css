@@ -1,4 +1,5 @@
 .news-container{
+    margin-top: 1rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -14,6 +15,11 @@
 
 .news-header h2{
     font-size: 2.4rem;
+}
+
+.news-header p{
+    color: #e82020;
+    font-size: 1.5rem;
 }
 
 .news-card-container{
