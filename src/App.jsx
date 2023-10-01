@@ -5,6 +5,7 @@ import TopCitys from './Components/TopCitys/TopCitys'
 import Category from './Components/Category/Category'
 import "./App.css"
 import News from './Components/News/News'
+import UserReviews from './Components/UserReviews/UserReviews';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <TopCitys/>
     <Category />
     <News/>
+    <UserReviews />
     </>
   )
 }
